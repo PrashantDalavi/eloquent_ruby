@@ -1,6 +1,6 @@
 class Document
-
-  attr_accessor :title, :author, :content
+  attr_accessor :writable
+  attr_reader :title, :author, :content
 
   def initialize(title, author, content)
     @title = title
